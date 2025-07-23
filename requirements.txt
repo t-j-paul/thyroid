@@ -1,0 +1,14 @@
+torch
+torchvision
+streamlit
+pandas
+numpy
+matplotlib
+opencv-python
+scikit-learn
+tqdm
+Pillow
+pyyaml
+seaborn
+pytest
+python-dotenv
