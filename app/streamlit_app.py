@@ -6,6 +6,8 @@ import streamlit as st
 import torch
 import numpy as np
 import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import tempfile
 from src.models.model import get_model
 from src.models.inference import preprocess_image, grad_cam
